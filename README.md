@@ -1,11 +1,11 @@
 # Particle Integration
 
-## In ilert: Create a Particle alert source
-
 [ilert][17] is an all-in-one platform for incident management. It provides a set of features that helps companies increase their uptime and react to incidents in the most comprehensive way. Alerting, call routing, on-call scheduling, ChatOps, AI assistance in incident communication and post-mortem creation — these and many more functions enable teams to concentrate their efforts on issue resolution.
 ilert integration for Particle enables users to receive alerts from devices and notify engineers by multiple channels, be it phone calls, push notifications, SMS, etc. Use alert templates to enrich alerts with all vital information to help your team react quicker.
 
 ![ilert particle][16]
+
+## In ilert: Create a Particle alert source
 
 1. Got to **Alert sources** -> **Alert sources** and click on **Create new alert source**
 
