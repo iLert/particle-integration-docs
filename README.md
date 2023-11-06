@@ -2,6 +2,11 @@
 
 ## In ilert: Create a Particle alert source
 
+[ilert][17] is an all-in-one platform for incident management. It provides a set of features that helps companies increase their uptime and react to incidents in the most comprehensive way. Alerting, call routing, on-call scheduling, ChatOps, AI assistance in incident communication and post-mortem creation — these and many more functions enable teams to concentrate their efforts on issue resolution.
+ilert integration for Particle enables users to receive alerts from devices and notify engineers by multiple channels, be it phone calls, push notifications, SMS, etc. Use alert templates to enrich alerts with all vital information to help your team react quicker.
+
+![ilert particle][16]
+
 1. Got to **Alert sources** -> **Alert sources** and click on **Create new alert source**
 
 ![ilert alert source 1][1]
@@ -60,7 +65,7 @@
 ### In Particle: Custom json data
 
 1. Under Advanced Settings choose **Custom** for **JSON DATA**.
-2. Create a template using the [Particle documentation](https://docs.particle.io/reference/cloud-apis/webhooks/). (it is also possible to add own customized values)
+2. Create a template using the [Particle documentation][15]. (it is also possible to add own customized values)
 
 ![particle webhook 8][13]
 
@@ -68,7 +73,7 @@
 
 1. Go to the alert source edit view.
 2. Under **Alert template** enable **Alert summary** and **Alert details**.
-3. For a detailed guide on how to use our alert templating click [here](https://docs.ilert.com/alerting/alert-sources#customize-your-alerts-with-alert-templates).
+3. For a detailed guide on how to use our alert templating click [here][18].
 4. Use the payload keys created in Particle to create the alert template.
 
 ![particle webhook 9][14]
@@ -87,3 +92,7 @@
 [12]: https://github.com/iLert/particle-integration-docs/blob/master/images/particle_ilert_7.png
 [13]: https://github.com/iLert/particle-integration-docs/blob/master/images/particle_ilert_8.png
 [14]: https://github.com/iLert/particle-integration-docs/blob/master/images/particle_ilert_9.png
+[15]: https://docs.particle.io/reference/cloud-apis/webhooks/
+[16]: https://github.com/iLert/particle-integration-docs/blob/master/images/ilert_particle.png
+[17]: https://eu1.hubs.ly/H062_XF0
+[18]: https://eu1.hubs.ly/H06300b0
